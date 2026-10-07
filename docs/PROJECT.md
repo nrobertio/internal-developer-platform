@@ -1,6 +1,6 @@
 # Project Writeup: Internal Developer Platform
 
-Why this exists, how it was built, why each choice, benefits, and interview talking points. Maps to platform-engineering roles that ask for shared platform capabilities, self-service tooling, and production readiness.
+Why this exists, how it was built, why each choice, benefits, and design trade-offs. Maps to platform-engineering roles that ask for shared platform capabilities, self-service tooling, and production readiness.
 
 ## 1. The problem it solves
 
@@ -28,7 +28,7 @@ In a company with many teams, each team reinventing infrastructure produces inco
 - Operability: logs, dashboards and alarms exist from the first deploy.
 - Cost control: right-sized defaults and autoscaling instead of always-on over-provisioning.
 
-## 5. Interview talking points
+## 5. Design notes and trade-offs
 
 - What a golden path is and why it beats documentation: it enforces defaults instead of suggesting them.
 - Platform team as a product team: the internal customers are engineers; the CLI and modules are the product; success is adoption and developer velocity.
